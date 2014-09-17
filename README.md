@@ -5,7 +5,7 @@ Generate image albumn snapshot
 ![alt clusters](https://github.com/blackball/imagefun/raw/master/snapshot.jpg)
 
 ```Python
-import Snapshot
-sp = Snapshot
+from Snapshot import *
+sp = Snapshot()
 sp.generate("/home/blackball/Pictures/", "snapshot.jpg")
 ```
