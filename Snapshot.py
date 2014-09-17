@@ -1,7 +1,7 @@
 #!/usr/bin/python2.7
 
 '''
-Get all images and randomly select some of them to generate a snapshots.
+Get all images and randomly select some of them to generate a snapshot.
 '''
 import os
 import PIL
