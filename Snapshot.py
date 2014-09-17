@@ -10,8 +10,8 @@ from PIL import Image, ImageOps
 
 class Snapshot:
     def __init__(self):
-        self.num = 50
-        self.icon_size = [40,40]
+        self.num = 20
+        self.icon_size = [20,20]
 
     def set_num(self, n):
         self.num = n
