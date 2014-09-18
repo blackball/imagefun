@@ -13,8 +13,8 @@ sp.generate("/home/blackball/Pictures/", "snapshot.jpg")
 1. Backup unique images.
 
 ```Python
-from ImageBackUp import *
-bk = ImageBackUp()
+from ImageBackup import *
+bk = ImageBackup()
 unique_images = bk.get("/home/blackball/Pictures/")
 bk.backup(unique_names, "/home/blackball/backup/photos/")
 ```
